@@ -61,12 +61,23 @@ div.devinfo{
     background-color: black;
     color: white;
 }
-li{
+li {
+    
     list-style: none;
     padding: 14px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.devinfo a{
+    text-decoration: none;
+    color: black;
+}
+.buttons button a:hover{
+    color: white;
 }
 li:hover{
     background-color: black;
     color: white;
-}
 }
