@@ -12,36 +12,61 @@
 }
 
 nav{
-    background-color:black ;
+    background-color: orange;
     color: white;
     width: 15vw;
     height: 100vh;
 }
 .main{
-    background-color:thistle;
-    color: black;
+    background-image:url(/background.jpg) ;
     font-size: 20px;
     width: 85vw;
 }
 .info{
-    background-color: violet;
+background-color:orange;   
+ color: rgb(255, 255, 255);
     width: 70vw;
     height: 70vh;
-    margin: 55px 92px;
+    border-radius: 22vh 0vw;
+    /* margin: 55px 92px; */
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-div.hello{
-    margin: 55px 253px;
+div.info{
+    margin: 15vh 8vw;
     font-family: 'Mochiy Pop P One', sans-serif;
-    /* font-size: 34px; */
+    display: flex;
+    /* align-items: center; */
+}
+div.devinfo{
+    padding: 24vh 13vw;
 }
 .devPic img{
-    width: 132px;
-    height: 144px;
+    width:9vw ;
+    height: 25vh;
+    /* margin: 23vh 48vw; */
+}
+.name{
+    /* font-size: 5vh 5vw; */
+}
+.buttons {
+    padding: 4vh 3vw;
+    
+}
+.buttons button{
+    padding: 2vh 2vw;
+    border:solid orange;
+    border-radius: 3vh;
+}
+.buttons button:hover{
+    background-color: black;
+    color: white;
 }
 li{
     list-style: none;
     padding: 14px;
+}
+li:hover{
+    background-color: black;
+    color: white;
+}
 }
