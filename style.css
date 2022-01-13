@@ -10,20 +10,127 @@
     display: flex;
     height: 100vh;
 }
-
+.main3{
+    display: flex;
+    justify-content: center;
+}
 nav{
-    background-color: orange;
+    background-color: rgb(248, 180, 53);
     color: white;
     width: 15vw;
-    height: 100vh;
+    height: 100vh;animation-name: slide2;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-direction: normal;
 }
+@keyframes slide2 {
+    0%{
+        height: 0 ;
+    }
+    100%{
+        height:100vh ;
+    }
+}
+
 .main{
     background-image:url(/background.jpg) ;
     font-size: 20px;
     width: 85vw;
 }
+.main2{
+    /* background-image: url(/CONTACT.JPG); */
+    background-color: rgb(253, 215, 145);
+    width: 85vw;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.container2{
+    margin: 48vh 0vw;
+}
+.mygitid{
+    padding: 0vh 20vw;
+}
+.myemail{
+    padding: 1vh 20vw;
+}
+.phone{
+    padding: 1vh 20vw;
+}
+.form-group{
+    padding: 8vh 18vw;
+    margin: -8vh 0;
+
+}
+/* input#Phone.form-control{
+    margin:0rem 2rem ;
+} */
+button.btn.btn-primary{
+    margin: 0 36vw;
+    padding: 2vh 3vw;
+    border-radius: 2rem;
+}
+button.btn.btn-primary:hover{
+    background-color: black;
+    color: white;
+}
+input#HRPhone.form-control{
+    margin: 0 5vw;
+}
+form{
+    background-color: black;
+    color: white;
+    border-radius: 6rem 2rem;
+    width: ;
+    margin: 9rem 1rem;
+    animation-name: slide1;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-direction: normal;
+}
+@keyframes slide1{
+    0%{
+        transform: scale(3, 0.33);
+     }
+     100%{
+        transform: scale(1, 1);
+     }
+}
+
+.owncontact{
+    background-color: black;
+    color: white;
+    width: 75vw;
+    height: 27vh;
+    border-radius: 40vh 40vw;
+    margin: -40vh 5vw;
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    animation-direction: normal;
+}
+@keyframes slide {
+    0%{
+        width:0 ;
+    }
+    100%{
+        width: 75vw;
+    }
+}
+p2{
+   padding: 0 24vw;
+   font-weight:bold ;
+
+}
+.myemail a:hover{
+          color: white;
+}
+.mygitid a:hover{
+    color: white;
+}
 .info{
-background-color:orange;   
+    background-color: rgb(248, 180, 53);
  color: rgb(255, 255, 255);
     width: 70vw;
     height: 70vh;
@@ -54,7 +161,7 @@ div.devinfo{
 }
 .buttons button{
     padding: 2vh 2vw;
-    border:solid orange;
+    border:solid rgb(248, 180, 53);
     border-radius: 3vh;
 }
 .buttons button:hover{
