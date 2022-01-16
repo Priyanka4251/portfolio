@@ -1,0 +1,65 @@
+@media (max-width: 800px) {
+    .devinfo2{
+        border-radius: 0 0 ;
+    }
+    .main2{
+        background-color: white;
+    }
+    .container{
+        background-color: white;
+    }
+    .owncontact{
+        height: 35vh;
+        width: 85vw;
+        border-radius:10px 14px ;
+    }
+    .contactform{
+        width: 70vw;
+    }
+    form{
+        margin-top: 12vh;
+        
+    }
+    .myemail{
+        font-weight: lighter;
+        padding: 2vh 2vw;
+    }
+    .mygitid{
+        padding: 2vh 2vw;
+    }
+    .mygitid a{
+        font-size: 15px;
+    }
+    .phone{
+        font-weight: lighter;
+        padding: 2vh 2vw;
+
+    }
+    p2{
+        font-weight: lighter;
+    }
+  
+}
+@media (max-width: 570px) {
+    .devPic{
+        display: none;
+    }
+    .owncontact{
+        width: 90vw;
+        padding: 6vh 0vw;
+    }
+    form{
+        width: 90vw;
+    }
+    p2{
+        margin: ;
+    }
+}
+@media (max-width: 285px) {
+    .owncontact{
+        width: 90vw;
+    }
+    .mygitid a{
+        font-size: 13px;
+    }
+}
